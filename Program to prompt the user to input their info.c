@@ -1,0 +1,24 @@
+/*
+Name: Lee Kariuki
+Registration no: CT101/G/26493/25
+Description: Program to inquire about the users 
+height, bank balance & phone number 
+*/
+#include<stdio.h>
+int main(){
+    int height;
+    printf("Enter your height in cm\n");
+    scanf("%d",&height);
+    printf("Your height is %dcm\n", height);
+    
+    int balance;
+    printf("Enter your balance in KSH\n");
+    scanf("%d",&balance);
+    printf("Your balance is KSH%d\n", balance);
+    
+    int phone;
+    printf("Enter your phone in (+254)\n");
+    scanf("%d", &phone);
+    printf("Your phone is +254%d", phone);
+return 0;
+}
